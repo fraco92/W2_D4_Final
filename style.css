@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(41, 41, 41);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: 800;
+}
+
+p,
+li {
+  font-size: 12pt;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+#green-p {
+  color: green;
+}
+
+#header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: white;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  padding-inline: 14%;
+}
+
+#logo {
+  height: 45px;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  padding-inline: 14%;
+}
+
+/* ----NAVBAR---- */
+
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.icon {
+  font-size: 15pt;
+  color: grey;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: rgb(17, 17, 17);
+}
+
+.icon-footer ion-icon {
+  color: rgb(41, 41, 41);
+  padding-left: 10px;
+}
+
+.radius-button {
+  background-color: white;
+  font-size: 12pt;
+  border-radius: 20px;
+  padding-inline: 15px;
+  border: 1.5px solid rgb(117, 117, 117);
+  padding-block: 7px;
+}
+
+.radius-button:hover {
+  border: 1.5px solid rgb(17, 17, 17);
+  cursor: pointer;
+}
+
+#profile-button {
+  height: 40px;
+  width: 40px;
+  /* background-color: rgb(244, 81, 29);
+  color: white;
+  font-size: 14pt;
+  border: none; */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+/* --------------MAIN-SX-------------- */
+
+.main-sx {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 50px;
+  gap: 50px;
+  /* background-color: lightslategray; */
+}
+
+.nav-sx {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.nav-sx h2 {
+  display: inline;
+  padding-right: 25px;
+  color: gray;
+}
+
+.nav-sx h2:hover {
+  color: rgb(20, 20, 20);
+  border-bottom: solid 1.5px rgb(20, 20, 20);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.card-sx {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.cover-img {
+  height: 130px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.topic {
+  background-color: rgb(242, 242, 242);
+  border-radius: 15px;
+  padding-inline: 8px;
+  padding-block: 5px;
+}
+/* --------------MAIN-DX-------------- */
+
+.main-dx {
+  position: sticky;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid lightgrey;
+  padding-left: 50px;
+  gap: 50px;
+  /* background-color: antiquewhite; */
+}
+
+/* ---X CONNECTION--- */
+
+.x-connection {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.medium-X {
+  display: flex;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.symbol {
+  height: 25px;
+}
+
+.x-connection h2 {
+  font-weight: 400;
+  width: 70%;
+}
+
+.radius-button-connect {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 12pt;
+  border-radius: 20px;
+  padding-inline: 23px;
+  border: 1px solid rgb(117, 117, 117);
+  padding-block: 7px;
+  gap: 10px;
+}
+
+.radius-button-connect:hover {
+  border: 1px solid rgb(17, 17, 17);
+  cursor: pointer;
+}
+
+.later-text {
+  color: grey;
+  text-decoration: underline;
+  font-size: 10pt;
+}
+
+/* ---RACCOMANDED TOPICS--- */
+
+.topics {
+  width: 70%;
+}
+
+.topics h2 {
+  margin-bottom: 15px;
+}
+
+.topic-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grey-back {
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+/* ---FOLLOWS--- */
+
+.follows h2 {
+  margin-bottom: 15px;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.idprofile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.profiles img {
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ---RECENTLY SAVED--- */
+
+.saved,
+.saved-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.saved-box {
+  gap: 10px;
+  width: 90%;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.autor p {
+  font-size: 10pt;
+  font-weight: 500;
+}
+
+.p-grey {
+  color: gray;
+  padding-top: 5px;
+}
+
+.footer-saved-linetext {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gray;
+  font-size: 10pt;
+}
+
+.icon-rounded {
+  width: 25px;
+  border-radius: 20%;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* ----------FOOTER NAVBAR------------ */
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.footer-navbar {
+  color: grey;
+}
+
+.footer-navbar ul {
+  padding: 0;
+}
+
+.footer-navbar li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-navbar li:hover {
+  cursor: pointer;
+  color: rgb(40, 40, 40);
+}
